@@ -12,6 +12,7 @@ class FancyContainer extends StatefulWidget {
     this.subtitle = "Subtitle",
     this.subtitlecolor,
     this.padding,
+    this.onTouch,
   }) : super(key: key);
 
 
@@ -24,6 +25,7 @@ class FancyContainer extends StatefulWidget {
   final String subtitle;
   final Color? subtitlecolor;
   final EdgeInsetsGeometry? padding;
+  final GestureTapCallback? onTouch;
 
   @override
   State<FancyContainer> createState() => _FancyContainerState();

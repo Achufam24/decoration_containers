@@ -1,7 +1,7 @@
 name: styled_container
 description: A styled container package
 version: 0.0.1
-homepage:
+homepage: https://github.com/Achufam24/decoration_containers.git
 
 environment:
   sdk: ">=2.17.6 <3.0.0"
